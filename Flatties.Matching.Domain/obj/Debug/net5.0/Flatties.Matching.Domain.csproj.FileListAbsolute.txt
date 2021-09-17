@@ -1,0 +1,12 @@
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/bin/Debug/net5.0/Flatties.Matching.Domain.deps.json
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/bin/Debug/net5.0/Flatties.Matching.Domain.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/bin/Debug/net5.0/ref/Flatties.Matching.Domain.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/bin/Debug/net5.0/Flatties.Matching.Domain.pdb
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.csprojAssemblyReference.cache
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.AssemblyInfoInputs.cache
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.AssemblyInfo.cs
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.csproj.CoreCompileInputs.cache
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/ref/Flatties.Matching.Domain.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/Debug/net5.0/Flatties.Matching.Domain.pdb

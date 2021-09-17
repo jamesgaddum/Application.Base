@@ -1,0 +1,15 @@
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/bin/Debug/net5.0/Flatties.Matching.Application.deps.json
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/bin/Debug/net5.0/Flatties.Matching.Application.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/bin/Debug/net5.0/ref/Flatties.Matching.Application.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/bin/Debug/net5.0/Flatties.Matching.Application.pdb
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/bin/Debug/net5.0/Flatties.Matching.Domain.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/bin/Debug/net5.0/Flatties.Matching.Domain.pdb
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.csprojAssemblyReference.cache
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.AssemblyInfoInputs.cache
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.AssemblyInfo.cs
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.csproj.CoreCompileInputs.cache
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.csproj.CopyComplete
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/ref/Flatties.Matching.Application.dll
+/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/Debug/net5.0/Flatties.Matching.Application.pdb

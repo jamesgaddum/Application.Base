@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Persistence/Flatties.Matching.Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/Flatties.Matching.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/Flatties.Matching.Application.csproj",
+        "projectName": "Flatties.Matching.Application",
+        "projectPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/Flatties.Matching.Application.csproj",
+        "packagesPath": "/Users/jamesgaddum/.nuget/packages/",
+        "outputPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jamesgaddum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj": {
+                "projectPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Mediatr": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj",
+        "projectName": "Flatties.Matching.Domain",
+        "projectPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj",
+        "packagesPath": "/Users/jamesgaddum/.nuget/packages/",
+        "outputPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jamesgaddum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Persistence/Flatties.Matching.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Persistence/Flatties.Matching.Persistence.csproj",
+        "projectName": "Flatties.Matching.Persistence",
+        "projectPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Persistence/Flatties.Matching.Persistence.csproj",
+        "packagesPath": "/Users/jamesgaddum/.nuget/packages/",
+        "outputPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jamesgaddum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/Flatties.Matching.Application.csproj": {
+                "projectPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Application/Flatties.Matching.Application.csproj"
+              },
+              "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj": {
+                "projectPath": "/Users/jamesgaddum/Dev/flatties/Flatties.Matching/Flatties.Matching.Domain/Flatties.Matching.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
