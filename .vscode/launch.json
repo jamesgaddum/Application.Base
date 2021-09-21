@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Flatties.Matching.WebAPI/bin/Debug/net5.0/Flatties.Matching.WebAPI.dll",
+            "program": "${workspaceFolder}/Application.Base.WebAPI/bin/Debug/net5.0/Application.Base.WebAPI.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Flatties.Matching.WebAPI",
+            "cwd": "${workspaceFolder}/Application.Base.WebAPI",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
