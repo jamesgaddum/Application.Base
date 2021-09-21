@@ -14,7 +14,7 @@ namespace Application.Base.Application.Tests
         public async Task ShouldCreateAValidUser()
         {
             // Arrange
-            var externalUserId = new UserId(Guid.NewGuid().ToString());
+            var externalUserId = Guid.NewGuid().ToString();
             var command = new CreateUserCommand
             {
                 Id = externalUserId,
@@ -59,7 +59,7 @@ namespace Application.Base.Application.Tests
             // Arrange
             var command = new CreateUserCommand
             {
-                Id = new UserId(Guid.NewGuid().ToString()),
+                Id = Guid.NewGuid().ToString(),
                 DateOfBirth = DateTime.Now
             };
 
@@ -74,7 +74,7 @@ namespace Application.Base.Application.Tests
             // Arrange
             var command = new CreateUserCommand
             {
-                Id = new UserId(Guid.NewGuid().ToString()),
+                Id = Guid.NewGuid().ToString(),
                 FirstName = "Barry"
             };
 

@@ -8,7 +8,7 @@ namespace Application.Base.Application
 {
     public class GetUserQuery : IRequest<User>
     {
-        public UserId Id { get; set; }
+        public string Id { get; set; }
 
         public class Handler : IRequestHandler<GetUserQuery, User>
         {
@@ -22,7 +22,7 @@ namespace Application.Base.Application
             public async Task<User> Handle(GetUserQuery request, CancellationToken cancellationToken)
             {
                 return await _context.Set<User>()
-                    .SingleOrDefaultAsync(u => u.Id == request.Id);
+                    .SingleOrDefaultAsync(u => u.Id.Value == request.Id);
             }
         }
     }

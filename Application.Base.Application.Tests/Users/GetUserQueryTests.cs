@@ -26,7 +26,7 @@ namespace Application.Base.Application.Tests.Users
 
             var query = new GetUserQuery
             {
-                Id = user.Id
+                Id = user.Id.Value
             };
 
             // Act
