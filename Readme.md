@@ -1,6 +1,6 @@
 # Base Application
 
-A base .NET 5 application
+A base .NET 5 application backed by SQL Server and authorized with Firebase
 
 ### Migrations
 
