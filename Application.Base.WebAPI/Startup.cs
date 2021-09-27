@@ -30,7 +30,7 @@ namespace Application.Base.WebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Application.Base.WebAPI", Version = "v1" });
 
             });
-            services.AddFirebaseAuthentication();
+            services.AddFirebaseAuthentication(Configuration);
             services.AddPersistence(Configuration);
             services.AddApplication();
             services.AddValidatorsFromAssemblyContaining<IApplicationDbContext>();
