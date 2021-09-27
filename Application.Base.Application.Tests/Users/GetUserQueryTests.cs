@@ -14,29 +14,25 @@ namespace Application.Base.Application.Tests.Users
         public async Task ShouldFetchValidUser()
         {
             // Arrange
-            var user = new User
-            {
-                Id = new UserId(Guid.NewGuid().ToString()),
-                FirstName = "Barry",
-                LastName = "Madgewick",
-                DateOfBirth = DateTime.Now
-            };
+            var userDto = UserDto.MapFrom(new User(
+                id: Guid.NewGuid().ToString(),
+                firstName: "Barry",
+                lastName: "Madgewick",
+                dateOfBirth: DateTime.Now
+            ));
 
-            await AddAsync(user);
+            await AddAsync(userDto);
 
-            var query = new GetUserQuery
-            {
-                Id = user.Id.Value
-            };
+            var query = new GetUserQuery(userDto.Id);
 
             // Act
             var response = await SendAsync(query);
 
             // Assert
-            response.Id.Should().BeEquivalentTo(user.Id);
-            response.FirstName.Should().BeEquivalentTo(user.FirstName);
-            response.LastName.Should().BeEquivalentTo(user.LastName);
-            response.DateOfBirth.Should().BeSameDateAs(user.DateOfBirth);
+            response.Id.Should().BeEquivalentTo(userDto.Id);
+            response.FirstName.Should().BeEquivalentTo(userDto.FirstName);
+            response.LastName.Should().BeEquivalentTo(userDto.LastName);
+            response.DateOfBirth.Should().BeSameDateAs(userDto.DateOfBirth);
         }
     }
 }

@@ -7,6 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using FluentValidation;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using System.IO;
 
 namespace Application.Base.WebAPI
 {
@@ -27,6 +30,7 @@ namespace Application.Base.WebAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Application.Base.WebAPI", Version = "v1" });
 
             });
+            services.AddFirebaseAuthentication();
             services.AddPersistence(Configuration);
             services.AddApplication();
             services.AddValidatorsFromAssemblyContaining<IApplicationDbContext>();
@@ -40,16 +44,27 @@ namespace Application.Base.WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Application.Base.WebAPI v1"));
                 app.UseExceptionHandler("/dev-error");
+
+                FirebaseApp.Create(new AppOptions
+                {
+                    Credential = GoogleCredential.FromFile($"{Directory.GetCurrentDirectory()}/Base-App-Private-Key.json")
+                });
             }
             else
             {
                 app.UseExceptionHandler("/error");
+
+                FirebaseApp.Create(new AppOptions
+                {
+                    Credential = GoogleCredential.GetApplicationDefault()
+                });
             }
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

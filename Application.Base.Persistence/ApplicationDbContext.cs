@@ -1,5 +1,4 @@
 using Application.Base.Application;
-using Application.Base.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Application.Base.Persistence
@@ -10,7 +9,7 @@ namespace Application.Base.Persistence
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<UserDto> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

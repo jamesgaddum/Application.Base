@@ -6,11 +6,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application.Base.Application
 {
-    public class GetUserQuery : IRequest<User>
+    public class GetUserQuery : IRequest<UserDto>
     {
-        public string Id { get; set; }
+        public GetUserQuery(string Id)
+        {
+            UserId = new UserId(Id);
+        }
 
-        public class Handler : IRequestHandler<GetUserQuery, User>
+        public UserId UserId { get; set; }
+
+        public class Handler : IRequestHandler<GetUserQuery, UserDto>
         {
             private readonly IApplicationDbContext _context;
 
@@ -19,10 +24,10 @@ namespace Application.Base.Application
                 _context = context;
             }
 
-            public async Task<User> Handle(GetUserQuery request, CancellationToken cancellationToken)
+            public async Task<UserDto> Handle(GetUserQuery request, CancellationToken cancellationToken)
             {
-                return await _context.Set<User>()
-                    .SingleOrDefaultAsync(u => u.Id.Value == request.Id);
+                return await _context.Set<UserDto>()
+                    .SingleOrDefaultAsync(u => u.Id == request.UserId.Value);
             }
         }
     }

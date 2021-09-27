@@ -23,10 +23,7 @@ namespace Application.Base.Application.Tests
                 DateOfBirth = DateTime.Now
             };
 
-            var query = new GetUserQuery
-            {
-                Id = externalUserId
-            };
+            var query = new GetUserQuery(externalUserId);
 
             // Act
             await SendAsync(command);
